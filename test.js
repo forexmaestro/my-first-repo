@@ -8,7 +8,7 @@ function multi(arg){
       output: process.stdout
     });
 
-    rl.question(`Which number would you like to multiply by ${arg}? `, function(newarg) {
+    rl.question(`Which number would you like to multiply by nigga ${arg}? `, function(newarg) {
       let result = parseInt(newarg) * arg;
       console.log(result);
       rl.close();
